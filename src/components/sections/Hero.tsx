@@ -70,23 +70,6 @@ const Hero = () => {
                 <img src={profileImg} alt="Portrait of Ashutosh A, AI Product Manager" className="w-full h-full object-cover" />
               </div>
 
-              {/* Floating metric cards */}
-              <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -left-8 top-8 bg-card border border-border rounded-lg shadow-elevated px-3 py-2 hidden md:block"
-              >
-                <div className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">Decision accuracy</div>
-                <div className="text-lg font-display font-bold text-foreground">+30%</div>
-              </motion.div>
-              <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 5, delay: 1.5, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -right-6 bottom-10 bg-card border border-border rounded-lg shadow-elevated px-3 py-2 hidden md:block"
-              >
-                <div className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">Processing time</div>
-                <div className="text-lg font-display font-bold text-foreground">−40%</div>
-              </motion.div>
             </div>
           </motion.div>
         </div>

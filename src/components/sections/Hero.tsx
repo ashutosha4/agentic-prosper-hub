@@ -18,7 +18,7 @@ const Hero = () => {
             transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary border border-border text-xs font-mono text-muted-foreground mb-6">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+              <span className="w-2 h-2 rounded-full bg-[hsl(var(--accent-cyan))] animate-pulse" />
               Open to Senior PM / AI Product roles
             </div>
 

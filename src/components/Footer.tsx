@@ -1,4 +1,4 @@
-import { Linkedin, Mail, MapPin } from "lucide-react";
+import { Download, Linkedin, Mail, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -34,6 +34,7 @@ const Footer = () => {
             <li className="flex items-center gap-2"><Mail size={14} /><a href="mailto:aashutosha4@gmail.com" className="hover:text-foreground">aashutosha4@gmail.com</a></li>
             <li className="flex items-center gap-2"><Linkedin size={14} /><a href="https://linkedin.com/in/ashutosh-ashutosh-95053395" target="_blank" rel="noreferrer" className="hover:text-foreground">LinkedIn</a></li>
             <li className="flex items-center gap-2"><MapPin size={14} />Bengaluru, India</li>
+            <li className="flex items-center gap-2"><Download size={14} /><a href="/Ashutosh_CV.pdf" download="Ashutosh_CV.pdf" className="hover:text-foreground">Download CV (PDF)</a></li>
           </ul>
         </div>
       </div>

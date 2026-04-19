@@ -45,6 +45,13 @@ const Hero = () => {
               >
                 <Mail size={16} /> aashutosha4@gmail.com
               </a>
+              <a
+                href="/Ashutosh_CV.pdf"
+                download="Ashutosh_CV.pdf"
+                className="inline-flex items-center gap-2 px-5 py-3 rounded-md border border-border bg-background hover:bg-secondary text-foreground font-medium text-sm transition-colors"
+              >
+                <Download size={16} /> Download CV
+              </a>
             </div>
 
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-muted-foreground">
